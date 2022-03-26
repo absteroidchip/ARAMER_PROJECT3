@@ -23,7 +23,7 @@ def display_fortune(all_lines):
 
 def main():
     which_file = input("Which File Would You Like To Open?")
-    all_lines= load_fortunes(which_file)
+    all_lines = load_fortunes(which_file)
     display_fortune(all_lines)
 
 
